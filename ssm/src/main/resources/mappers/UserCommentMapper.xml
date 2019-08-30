@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+		"http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+
+<!-- namespace= 该XML文件对应的哪个接口文件 -->
+<mapper namespace="com.xp.ssm.mapper.VO.UserCommentMapper">
+
+	<!--查询指定日志的评论信息-->
+	<!--List<UserComment> findByLid(Integer lid);-->
+	<select id="findByLid" resultType="com.xp.ssm.entity.VO.UserComment">
+		SELECT
+			phone,email,
+			gender,avatar,
+			resume,cid,
+			c.uid,content,
+			c.lid,
+			comm_user AS commUser,
+			comm_time AS commTime
+		FROM t_user u
+		INNER JOIN
+			comments c
+		ON u.uid = c.uid
+		WHERE c.lid = #{lid}
+
+	</select>
+</mapper>

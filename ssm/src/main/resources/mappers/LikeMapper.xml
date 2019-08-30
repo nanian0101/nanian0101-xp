@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+		"http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+
+<!-- namespace= 该XML文件对应的哪个接口文件 -->
+<mapper namespace="com.xp.ssm.mapper.LikeMapper">
+
+	<!--添加点赞详情信息-->
+	<!--Integer addLikeInfo(Like like);-->
+	<insert id="addLikeInfo" useGeneratedKeys="true" keyProperty="kid">
+		INSERT INTO
+			likes (
+				kid,lid,
+				uid,username,
+				like_time
+			) VALUES (
+				#{kid},#{lid},
+				#{uid},#{username},
+				#{like_time}
+			)
+	</insert>
+</mapper>

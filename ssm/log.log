@@ -1,0 +1,69 @@
+2019-08-17 11:07:12.108  INFO 13024 --- [main] com.xp.ssm.RedisTemplateTests            : Starting RedisTemplateTests on DESKTOP-M5EDA26 with PID 13024 (started by 那年0101 in H:\IDEA\ssm)
+2019-08-17 11:07:12.242  INFO 13024 --- [main] com.xp.ssm.RedisTemplateTests            : No active profile set, falling back to default profiles: default
+2019-08-17 11:07:13.583  INFO 13024 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-17 11:07:13.588  INFO 13024 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-17 11:07:13.629  INFO 13024 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
+2019-08-17 11:07:14.134  INFO 13024 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c134dfa9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-17 11:07:16.137  INFO 13024 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-17 11:07:16.878  INFO 13024 --- [main] com.xp.ssm.RedisTemplateTests            : Started RedisTemplateTests in 5.766 seconds (JVM running for 7.857)
+2019-08-17 11:07:19.237  INFO 13024 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-17 11:07:19.242  INFO 13024 --- [Thread-3] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2019-08-17 11:08:16.764  INFO 5264 --- [main] com.xp.ssm.RedisTests                    : Starting RedisTests on DESKTOP-M5EDA26 with PID 5264 (started by 那年0101 in H:\IDEA\ssm)
+2019-08-17 11:08:16.764  INFO 5264 --- [main] com.xp.ssm.RedisTests                    : No active profile set, falling back to default profiles: default
+2019-08-17 11:08:18.934  INFO 5264 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-17 11:08:18.942  INFO 5264 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-17 11:08:18.988  INFO 5264 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces.
+2019-08-17 11:08:19.506  INFO 5264 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2eaa911d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-17 11:08:21.102  INFO 5264 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-17 11:08:22.171  INFO 5264 --- [main] com.xp.ssm.RedisTests                    : Started RedisTests in 6.098 seconds (JVM running for 7.481)
+2019-08-17 11:08:22.615  INFO 5264 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-17 11:08:22.625  INFO 5264 --- [Thread-3] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2019-08-17 11:08:37.674  INFO 4008 --- [main] com.xp.ssm.RedisTests                    : Starting RedisTests on DESKTOP-M5EDA26 with PID 4008 (started by 那年0101 in H:\IDEA\ssm)
+2019-08-17 11:08:37.676  INFO 4008 --- [main] com.xp.ssm.RedisTests                    : No active profile set, falling back to default profiles: default
+2019-08-17 11:08:39.593  INFO 4008 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-17 11:08:39.598  INFO 4008 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-17 11:08:39.683  INFO 4008 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59ms. Found 0 repository interfaces.
+2019-08-17 11:08:40.393  INFO 4008 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6ed9fda7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-17 11:08:41.798  INFO 4008 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-17 11:08:42.473  INFO 4008 --- [main] com.xp.ssm.RedisTests                    : Started RedisTests in 5.431 seconds (JVM running for 6.755)
+2019-08-17 11:08:42.954  INFO 4008 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-17 11:08:42.958  INFO 4008 --- [Thread-3] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2019-08-17 11:13:05.303  INFO 8012 --- [main] com.xp.ssm.RedisTemplateTests            : Starting RedisTemplateTests on DESKTOP-M5EDA26 with PID 8012 (started by 那年0101 in H:\IDEA\ssm)
+2019-08-17 11:13:05.310  INFO 8012 --- [main] com.xp.ssm.RedisTemplateTests            : No active profile set, falling back to default profiles: default
+2019-08-17 11:13:06.665  INFO 8012 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-17 11:13:06.675  INFO 8012 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-17 11:13:06.710  INFO 8012 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces.
+2019-08-17 11:13:07.220  INFO 8012 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4290ccc6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-17 11:13:08.524  INFO 8012 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-17 11:13:09.040  INFO 8012 --- [main] com.xp.ssm.RedisTemplateTests            : Started RedisTemplateTests in 4.381 seconds (JVM running for 5.598)
+2019-08-17 11:13:11.260  INFO 8012 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-17 11:13:11.270  INFO 8012 --- [Thread-3] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2019-08-17 11:15:47.153  INFO 9544 --- [main] com.xp.ssm.RedisTemplateTests            : Starting RedisTemplateTests on DESKTOP-M5EDA26 with PID 9544 (started by 那年0101 in H:\IDEA\ssm)
+2019-08-17 11:15:47.153  INFO 9544 --- [main] com.xp.ssm.RedisTemplateTests            : No active profile set, falling back to default profiles: default
+2019-08-17 11:15:48.974  INFO 9544 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-17 11:15:48.979  INFO 9544 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-17 11:15:49.012  INFO 9544 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-08-17 11:15:49.462  INFO 9544 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c7c17d54] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-17 11:15:51.533  INFO 9544 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-17 11:15:52.171  INFO 9544 --- [main] com.xp.ssm.RedisTemplateTests            : Started RedisTemplateTests in 5.69 seconds (JVM running for 6.949)
+2019-08-17 11:15:54.454  INFO 9544 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-17 11:15:54.460  INFO 9544 --- [Thread-3] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2019-08-17 11:21:54.017  INFO 10904 --- [main] com.xp.ssm.RedisTemplateTests            : Starting RedisTemplateTests on DESKTOP-M5EDA26 with PID 10904 (started by 那年0101 in H:\IDEA\ssm)
+2019-08-17 11:21:54.019  INFO 10904 --- [main] com.xp.ssm.RedisTemplateTests            : No active profile set, falling back to default profiles: default
+2019-08-17 11:21:55.930  INFO 10904 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-17 11:21:55.933  INFO 10904 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-17 11:21:55.975  INFO 10904 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
+2019-08-17 11:21:56.681  INFO 10904 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d85f8fbc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-17 11:21:58.643  INFO 10904 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-17 11:21:59.315  INFO 10904 --- [main] com.xp.ssm.RedisTemplateTests            : Started RedisTemplateTests in 6.02 seconds (JVM running for 7.478)
+2019-08-17 11:22:01.719  INFO 10904 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-17 11:22:01.725  INFO 10904 --- [Thread-3] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2019-08-17 11:30:14.082  INFO 9808 --- [main] com.xp.ssm.RedisTemplateTests            : Starting RedisTemplateTests on DESKTOP-M5EDA26 with PID 9808 (started by 那年0101 in H:\IDEA\ssm)
+2019-08-17 11:30:14.084  INFO 9808 --- [main] com.xp.ssm.RedisTemplateTests            : No active profile set, falling back to default profiles: default
+2019-08-17 11:30:15.739  INFO 9808 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-17 11:30:15.739  INFO 9808 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-17 11:30:15.779  INFO 9808 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19ms. Found 0 repository interfaces.
+2019-08-17 11:30:16.244  INFO 9808 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6495687a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-17 11:30:17.493  INFO 9808 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-17 11:30:18.019  INFO 9808 --- [main] com.xp.ssm.RedisTemplateTests            : Started RedisTemplateTests in 4.615 seconds (JVM running for 6.035)
+2019-08-17 11:30:20.234  INFO 9808 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

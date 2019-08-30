@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+		"http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+
+<!-- namespace= 该XML文件对应的哪个接口文件 -->
+<mapper namespace="com.xp.ssm.mapper.LogMapper">
+
+	<!--/**
+     * 发表日志/博客
+     * @param log 日志/博客
+     * @return 受影响行数
+     */-->
+	<!--Integer addLog(Log log);-->
+	<insert id="addLog" useGeneratedKeys="true" keyProperty="lid">
+		INSERT INTO
+ 			log (
+ 				uid,image,
+				title,content,
+				type,username,
+				create_user,
+				create_time,
+				modified_user,
+				modified_time
+ 			) VALUES (
+ 				#{uid},#{image},
+ 				#{title},#{content},
+ 				#{type},#{username},
+ 				#{createUser},
+ 				#{createTime},
+ 				#{modifiedUser},
+ 				#{modifiedTime}
+ 			)
+	</insert>
+
+	<!--/**
+     * 查询我的所有博客
+     * @return 我的博客
+     */-->
+	<!-- List<Log> findMyLog(@Param("uid") Integer uid,@Param("curr") Integer curr,@Param("limit") Integer limit);-->
+	<select id="findMyLog" resultType="com.xp.ssm.entity.Log">
+		SELECT
+ 			lid,
+ 			uid,
+ 			image,
+			title,content,
+			type,
+			username,
+			num,
+			create_user AS createUser,
+			create_time AS createTime,
+			modified_user AS modifiedUser,
+			modified_time AS modifiedTime
+		FROM
+			log
+		WHERE
+			uid=#{uid}
+		ORDER BY create_time DESC
+		LIMIT #{curr},#{limit}
+	</select>
+
+	<!--查询所有博客-->
+	<!--List<Log> findAllLog();-->
+	<select id="findAllLog" resultType="com.xp.ssm.entity.Log">
+		SELECT
+ 			lid,
+ 			uid,
+ 			image,
+			title,content,
+			type,
+			username,
+			num,
+			create_user AS createUser,
+			create_time AS createTime,
+			modified_user AS modifiedUser,
+			modified_time AS modifiedTime
+		FROM
+			log
+		ORDER BY create_time DESC
+		LIMIT #{curr},#{limit}
+	</select>
+</mapper>
